@@ -43,3 +43,17 @@ ol {
   padding: 0;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+    color: grey;
+  }
+  
+  .nav__toggle {
+    position: absolute;
+    cursor: pointer;
+    margin: 0rem 1rem;
+    right: 0;
+  }
