@@ -25,6 +25,10 @@
     background-color: #CBF07C;
 }
 
+.active{
+    background-color: #7FBF4F;
+}
+
 *,
 *::before,
 *::after {
