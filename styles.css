@@ -12,6 +12,16 @@
 .primary-bg{
     background-color: #E7F9DF;
 }
+.accent{
+    color: #7FBF4F;
+}
+.second-bg{
+    background-color: #CCE7BE;
+}
+.second-text{
+    color: #545950;
+}
+
 
 *,
 *::before,
