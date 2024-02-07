@@ -21,7 +21,9 @@
 .second-text{
     color: #545950;
 }
-
+.second-accent{
+    background-color: #CBF07C;
+}
 
 *,
 *::before,
