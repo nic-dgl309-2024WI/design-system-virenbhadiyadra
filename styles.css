@@ -13,7 +13,7 @@
     background-color: #E7F9DF;
 }
 .accent{
-    color: #7FBF4F;
+    background-color: #7FBF4F;
 }
 .second-bg{
     background-color: #CCE7BE;
@@ -27,6 +27,12 @@
 
 .active{
     background-color: #7FBF4F;
+}
+.color-swatch{
+    display: block;
+    width: 400px;
+    height: 80px;
+    text-align: center;
 }
 
 *,
