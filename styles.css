@@ -6,6 +6,12 @@
   --clr-secondary-text: #545950;
   --clr-secondary-accent: #CBF07C;
 }
+.primary-text{
+    color: #020202;
+}
+.primary-bg{
+    background-color: #E7F9DF;
+}
 
 *,
 *::before,
