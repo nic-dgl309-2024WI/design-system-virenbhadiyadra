@@ -22,26 +22,26 @@
 /* Utility classes for colors */
 
 .primary-text{
-    color: #020202;
+    color:var(--clr-primary-text);
 }
 .primary-bg{
-    background-color: #E7F9DF;
+    background-color: var(--clr-primary-bg);
 }
 .accent{
-    background-color: #7FBF4F;
+    background-color: var(--clr-accent);
 }
 .second-bg{
-    background-color: #CCE7BE;
+    background-color: var(--clr-secondary-bg);
 }
 .second-text{
-    color: #545950;
+    color: var(--clr-secondary-text);
 }
 .second-accent{
-    background-color: #CBF07C;
+    background-color: var(--clr-secondary-accent);
 }
 
 .active{
-    background-color: #7FBF4F;
+    background-color: var(--clr-accent);
 }
 .color-swatch{
     display: block;
