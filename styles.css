@@ -1,10 +1,12 @@
 :root {
+  /* Colors varialbes */
   --clr-primary-text:#020202;
   --clr-primary-bg: #E7F9DF;
   --clr-accent: #7FBF4F;
   --clr-secondary-bg: #CCE7BE;
   --clr-secondary-text: #545950;
   --clr-secondary-accent: #CBF07C;
+  /* Typography variables */
   --heading-font-family: 'Playfair Display', serif;
   --body-font-family: 'Merriweather', serif;
   --heading-font-size: 32px;
@@ -16,6 +18,9 @@
   --body-line-height: 1.6;
   --body-letter-spacing: 0.02em;
 }
+
+/* Utility classes for colors */
+
 .primary-text{
     color: #020202;
 }
@@ -44,6 +49,8 @@
     height: 80px;
     text-align: center;
 }
+
+/* Utility classes for typography */
 
 *,
 *::before,
