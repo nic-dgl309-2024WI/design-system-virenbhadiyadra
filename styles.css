@@ -52,6 +52,10 @@
 
 /* Utility classes for typography */
 
+.heading-font {
+  font-family: var(--heading-font-family);
+}
+
 *,
 *::before,
 *::after {
