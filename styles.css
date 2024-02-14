@@ -7,6 +7,10 @@
   --clr-secondary-accent: #CBF07C;
   --heading-font-family: 'Playfair Display', serif;
   --body-font-family: 'Merriweather', serif;
+  --heading-font-size: 32px;
+  --heading-font-weight: normal;
+  --heading-line-height: 1.4;
+  --heading-letter-spacing: 0.05em;
 }
 .primary-text{
     color: #020202;
