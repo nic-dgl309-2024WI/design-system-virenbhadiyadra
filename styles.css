@@ -67,6 +67,9 @@
 .heading-letter-spacing {
   letter-spacing: var(--heading-letter-spacing);
 }
+.body-font {
+  font-family: var(--body-font-family);
+}
 
 *,
 *::before,
