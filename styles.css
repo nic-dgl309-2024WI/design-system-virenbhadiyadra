@@ -64,6 +64,9 @@
 .heading-line-height {
   line-height: var(--heading-line-height);
 }
+.heading-letter-spacing {
+  letter-spacing: var(--heading-letter-spacing);
+}
 
 *,
 *::before,
