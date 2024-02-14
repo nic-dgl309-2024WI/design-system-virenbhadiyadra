@@ -58,6 +58,9 @@
 .heading-size {
   font-size: var(--heading-font-size);
 }
+.heading-weight {
+  font-weight: var(--heading-font-weight);
+}
 
 *,
 *::before,
