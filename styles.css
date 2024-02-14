@@ -76,6 +76,9 @@
 .body-weight {
   font-weight: var(--body-font-weight);
 }
+.body-line-height {
+  line-height: var(--body-line-height);
+}
 
 *,
 *::before,
