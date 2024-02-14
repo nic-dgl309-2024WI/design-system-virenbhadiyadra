@@ -1,0 +1,63 @@
+/* Utility classes for colors */
+
+.primary-text{
+    color:var(--clr-primary-text);
+}
+.primary-bg{
+    background-color: var(--clr-primary-bg);
+}
+.accent{
+    background-color: var(--clr-accent);
+}
+.second-bg{
+    background-color: var(--clr-secondary-bg);
+}
+.second-text{
+    color: var(--clr-secondary-text);
+}
+.second-accent{
+    background-color: var(--clr-secondary-accent);
+}
+
+.active{
+    background-color: var(--clr-accent);
+}
+.color-swatch{
+    display: block;
+    width: 400px;
+    height: 80px;
+    text-align: center;
+}
+
+/* Utility classes for typography */
+
+.heading-font {
+  font-family: var(--heading-font-family);
+}
+.heading-size {
+  font-size: var(--heading-font-size);
+}
+.heading-weight {
+  font-weight: var(--heading-font-weight);
+}
+.heading-line-height {
+  line-height: var(--heading-line-height);
+}
+.heading-letter-spacing {
+  letter-spacing: var(--heading-letter-spacing);
+}
+.body-font {
+  font-family: var(--body-font-family);
+}
+.body-size {
+  font-size: var(--body-font-size);
+}
+.body-weight {
+  font-weight: var(--body-font-weight);
+}
+.body-line-height {
+  line-height: var(--body-line-height);
+}
+.body-letter-spacing {
+  letter-spacing: var(--body-letter-spacing);
+}
