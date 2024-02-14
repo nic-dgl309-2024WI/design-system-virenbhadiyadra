@@ -79,6 +79,9 @@
 .body-line-height {
   line-height: var(--body-line-height);
 }
+.body-letter-spacing {
+  letter-spacing: var(--body-letter-spacing);
+}
 
 *,
 *::before,
