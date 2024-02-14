@@ -5,6 +5,7 @@
   --clr-secondary-bg: #CCE7BE;
   --clr-secondary-text: #545950;
   --clr-secondary-accent: #CBF07C;
+  --heading-font-family: 'Playfair Display', serif;
 }
 .primary-text{
     color: #020202;
