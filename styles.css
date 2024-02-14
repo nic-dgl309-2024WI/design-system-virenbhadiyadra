@@ -55,6 +55,9 @@
 .heading-font {
   font-family: var(--heading-font-family);
 }
+.heading-size {
+  font-size: var(--heading-font-size);
+}
 
 *,
 *::before,
