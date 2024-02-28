@@ -24,6 +24,9 @@
 .primary-text{
   color:var(--clr-primary-text);
 }
+.primary-textbg{
+  background-color: var(--clr-primary-text);
+}
 .primary-bg{
   background-color: var(--clr-primary-bg);
 }
@@ -35,6 +38,9 @@
 }
 .second-text{
   color: var(--clr-secondary-text);
+}
+.second-textbg{
+  background-color: var(--clr-secondary-text);
 }
 .second-accent{
   background-color: var(--clr-secondary-accent);
@@ -164,7 +170,7 @@ body {
     color: initial;
   }
   .nav__menu a:hover {
-    background-color: var(--clr-secondary-bg);
+    background-color: var(--clr-secondary-accent);
   }
   
   .side-nav{
