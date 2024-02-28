@@ -1,11 +1,11 @@
 :root {
   /* Colors varialbes */
-  --clr-primary-text:#020202;
-  --clr-primary-bg: #E7F9DF;
-  --clr-accent: #7FBF4F;
-  --clr-secondary-bg: #CCE7BE;
-  --clr-secondary-text: #545950;
-  --clr-secondary-accent: #CBF07C;
+  --clr-primary-text:#242424;
+  --clr-primary-bg: #ECE9E1;
+  --clr-accent: #005BE4;
+  --clr-secondary-bg: #EDDF5E;
+  --clr-secondary-text: #2CB9DE;
+  --clr-secondary-accent: #F08569;
   /* Typography variables */
   --heading-font-family: 'Playfair Display', serif;
   --body-font-family: 'Merriweather', serif;
