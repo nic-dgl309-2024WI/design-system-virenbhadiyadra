@@ -163,6 +163,9 @@ body {
     text-decoration: none;
     color: initial;
   }
+  .nav__menu a:hover {
+    background-color: var(--clr-secondary-bg);
+  }
   
   .side-nav{
       display: block;
