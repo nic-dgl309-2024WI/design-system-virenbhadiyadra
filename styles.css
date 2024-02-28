@@ -10,7 +10,7 @@
   --heading-font-family: 'Playfair Display', serif;
   --body-font-family: 'Playfair Display', serif;
   --heading-font-size: 32px;
-  --heading-font-weight: normal;
+  --heading-font-weight: Bold;
   --heading-line-height: 1.4;
   --heading-letter-spacing: 0.05em;
   --body-font-size: 16px;
@@ -131,7 +131,7 @@ body {
     padding: 0;
     box-sizing: border-box;
   
-    color: grey;
+    color: var(--clr-primary-text);
   }
   
   .nav__toggle {
