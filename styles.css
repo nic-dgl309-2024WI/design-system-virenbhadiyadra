@@ -21,35 +21,35 @@
 
 /* Utility classes for colors */
 
-.primary-text{
+.u-primary-text{
   color:var(--clr-primary-text);
 }
-.primary-textbg{
+.u-primary-textbg{
   background-color: var(--clr-primary-text);
 }
-.primary-bg{
+.u-primary-bg{
   background-color: var(--clr-primary-bg);
 }
-.accent{
+.u-accent{
   background-color: var(--clr-accent);
 }
-.second-bg{
+.u-second-bg{
   background-color: var(--clr-secondary-bg);
 }
-.second-text{
+.u-second-text{
   color: var(--clr-secondary-text);
 }
-.second-textbg{
+.u-second-textbg{
   background-color: var(--clr-secondary-text);
 }
-.second-accent{
+.u-second-accent{
   background-color: var(--clr-secondary-accent);
 }
 
-.active{
+.u-active{
   background-color: var(--clr-secondary-text);
 }
-.color-swatch{
+.u-color-swatch{
   display: block;
   width: 400px;
   height: 80px;
@@ -58,34 +58,34 @@
 
 /* Utility classes for typography */
 
-.heading-font {
+.u-heading-font {
 font-family: var(--heading-font-family);
 }
-.heading-size {
+.u-heading-size {
 font-size: var(--heading-font-size);
 }
-.heading-weight {
+.u-heading-weight {
 font-weight: var(--heading-font-weight);
 }
-.heading-line-height {
+.u-heading-line-height {
 line-height: var(--heading-line-height);
 }
-.heading-letter-spacing {
+.u-heading-letter-spacing {
 letter-spacing: var(--heading-letter-spacing);
 }
-.body-font {
+.u-body-font {
 font-family: var(--body-font-family);
 }
-.body-size {
+.u-body-size {
 font-size: var(--body-font-size);
 }
-.body-weight {
+.u-body-weight {
 font-weight: var(--body-font-weight);
 }
-.body-line-height {
+.u-body-line-height {
 line-height: var(--body-line-height);
 }
-.body-letter-spacing {
+.u-body-letter-spacing {
 letter-spacing: var(--body-letter-spacing);
 }
 
