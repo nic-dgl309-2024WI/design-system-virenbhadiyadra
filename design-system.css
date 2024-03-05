@@ -1,0 +1,147 @@
+header {
+    padding: 20px;
+}
+
+.flexbox {
+    display: flex;
+}
+
+.jc-btwn {
+    justify-content: space-between;
+}
+
+.ai-cn {
+    align-items: center;
+}
+
+.flexbox .nav {
+    width: max(25%, 300px);
+    overflow: scroll;
+}
+
+.flexbox .nav .u-heading-font:not(:first-child) {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.flexbox .nav {
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.flexbox .nav li:not(.u-heading-font) {
+    margin: 15px 0;
+}
+
+.flexbox .nav li:not(.u-heading-font) a {
+    padding: 7px;
+    border-radius: 4px;
+    margin-left: 20px;
+}
+
+
+.content {
+    height: calc(100vh - 50px);
+    width: 100%;
+    overflow: scroll;
+}
+
+.sections {
+    width: 75%;
+    height: 100%;
+    overflow: scroll;
+    padding: 7%;
+}
+
+.colors-table {
+    margin-top: 40px;
+}
+
+.colors-table .flexbox {
+    margin: 20px 0;
+}
+
+.colors-table .flexbox > * {
+    width: 33%;
+    word-wrap: break-word;
+}
+
+.ex-box {
+    width: 80%;
+    margin: 0 auto;
+    height: 80px;
+}
+
+.colors-table .flexbox > *:not(.ex-box) {
+    padding: 10px;
+}
+
+.description {
+    font-size: 1.25rem;
+}
+
+.light-headers {
+    font-weight: 500;
+}
+
+.medium-headers {
+    font-weight: 700;
+}
+
+code {
+    display: block;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.table-div {
+    max-width: 100%;
+    overflow: scroll;
+}
+
+.containers-table {
+    border-collapse: collapse;
+}
+
+th {
+    font-size: 1.25rem
+}
+
+th, td {
+    text-align: center;
+    padding: 10px;
+    font-size: 1rem;
+    border-bottom: 1px solid #aaa;
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    header {
+        position: relative;
+        z-index: 1;
+    }
+
+    .content {
+        height: calc(100vh - 125px) !important;
+    }
+
+    .nav {
+        position: fixed;
+        left: -300px;
+        top: 0;
+        height: 100vh;
+        padding-top: 125px !important;
+        transition: all 0.25s ease-in-out;
+    }
+
+    .sections {
+        width: 100%;
+    }
+
+    .colors-table .flexbox h2 {
+        font-size: 1.25rem;
+    }
+}
