@@ -122,6 +122,12 @@ html {
 body {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  color: var(--clr-primary-text);
+  height: 100%;
+  width: 100%;
+
 }
 
 body,
@@ -137,6 +143,20 @@ picture {
   margin: 0;
 }
 
+h1{
+  font-size:2rem ;
+}
+h2{
+  font-size:1.5rem ;
+}h3{
+  font-size:1.25rem ;
+}h4{
+  font-size:1.125rem ;
+}h5{
+  font-size:1.15rem ;
+}h6{
+  font-size:1rem ;
+}
 a {
   text-decoration: none;
 }
@@ -146,15 +166,8 @@ ol {
   padding: 0;
 }
 
-body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  overflow: hidden;
-  color: var(--clr-primary-text);
-  height: 100%;
-  width: 100%;
-}
+
+
 
 .nav__toggle {
   cursor: pointer;
