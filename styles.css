@@ -129,6 +129,11 @@ body {
   width: 100%;
 
 }
+.container {
+  text-align: center; /* For inline elements */
+  /* Or */
+  /* margin: 0 auto; */ /* For block-level elements */
+}
 
 body,
 h1,
