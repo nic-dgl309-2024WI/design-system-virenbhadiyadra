@@ -112,6 +112,10 @@
 	letter-spacing: var(--body-letter-spacing);
 }
 
+.top-border {
+    border-top: 1px solid #eee;
+}
+
 *,
 *::before,
 *::after {
@@ -632,7 +636,11 @@ li:first-child {
 }
 
 .image-logo {
+    max-height: 300px;
+    max-width: 300px;
+    display: block;
 	font-size: 1rem;
+    margin: 0 auto;
 }
 
 /* -=-=-=-=-=-=-=-= ACCORDION -=-=-=-=-=-=-=-= */

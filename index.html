@@ -11,6 +11,7 @@
             rel="stylesheet">
 
     </head>
+
     <body>
         <!-- Mobile Navbar Toggle Button -->
         <input type="checkbox" id="menu-toggle" />
@@ -45,6 +46,8 @@
                     <li><a href="*" class="u-body-font">FAQ</a></li>
                 </ul>
             </nav>
+
+
             <div class="w-100 ovrflw-scr">
                 <div class="flexbox jc-btwn ai-cn mobile-view-flex-direction-reverse">
                     <div class="w-50 pd-20 mobile-view-center">
@@ -368,7 +371,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="mt-40 pd-12 mobile-view-pd-0 pt-0">
+                <div class=" mt-40 pd-12 mobile-view-pd-0 pt-0">
                     <h2 class="text-center">FAQs</h2>
 
                     <div class="acc-item mt-40">
@@ -428,10 +431,116 @@
 
                     </div>
                 </div>
+                <div class="mt-40 pd-12 mobile-view-pd-0 pt-0">
+                    <h2 class="text-center">GET IN TOUCH</h2>
+                    <div class="flexbox jc-btwn ai-cn mobile-view-flex-direction mt-40 gp-40">
+                        <div class="w-50">
+                            <h3 class="u-primary-text">ADDRESS</h3>
+                            <h4 class="mt-10">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit delectus
+                                autem nisi
+                                optio atque accusamus modi ducimus eveniet rerum earum deleniti aut sint laudantium cum
+                                excepturi nemo, fugit eum. Cum?</h4>
+                            <h3 class="mt-20">EMAIL</h3>
+                            <h4 class="mt-10">loremipsum@loremipsum.com</h4>
+                            <h3 class="mt-20">PHONE</h3>
+                            <h4 class="mt-10">1234567890</h4>
+                        </div>
+                        <form class="w-50 pd-l-20 mobile-view-pd-0">
+                            <div>
+                                <label for="name" class="form-label">Name</label>
+                                <input type="text" name="name" id="name" placeholder="Enter name">
+                            </div>
+                            <div>
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" name="email" id="email" placeholder="Enter email">
+                            </div>
+                            <div>
+                                <label for="message" class="form-label">message</label>
+                                <input type="text" name="message" id="message" placeholder="Enter message">
+                            </div>
+                            <div class="mt-20">
+                                <button type="submit" class="button button-sec">SUBMIT</button>
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+                <div class="mt-40 pd-12 mobile-view-pd-0 top-border">
+                    <div class="flexbox jc-btwn ai-cn gp-40 mobile-view-flex-direction">
+                        <div class="w-100 text-center">
+                            <img src="https://marketplace.canva.com/EAFauoQSZtY/1/0/1600w/canva-brown-mascot-lion-free-logo-qJptouniZ0A.jpg"
+                                class="image-logo" />
+                            <div>
+                                <button type="submit" class="button button-sec mt-20">EMAIL US</button>
+                            </div>
+                            <div>
+                                <button type="submit" class="button button-sec mt-20">JOIN NEWS</button>
+                            </div>
+                        </div>
+                        <div class="w-50 text-center">
+                            <div class="breadcrumb-links">
+                                <h2>
+                                    <a href="#">
+                                        Product
+                                    </a>
+                                </h2>
+                            </div>
+                            <div class="breadcrumb-links mt-20">
+                                <h2>
+                                    <a href="#">
+                                        About
+                                    </a>
+                                </h2>
+                            </div>
+                            <div class="breadcrumb-links mt-20">
+                                <h2>
+                                    <a href="#">
+                                        Contact
+                                    </a>
+                                </h2>
+                            </div>
+                            <div class="breadcrumb-links mt-20">
+                                <h2>
+                                    <a href="#">
+                                        GC
+                                    </a>
+                                </h2>
+                            </div>
+                            <div class="breadcrumb-links mt-20">
+                                <h2>
+                                    <a href="#">
+                                        FAQ
+                                    </a>
+                                </h2>
+                            </div>
+                            <div class="breadcrumb-links mt-20">
+                                <h2>
+                                    <a href="#">
+                                        RESOURCE
+                                    </a>
+                                </h2>
+                            </div>
+                        </div>
+                        <div id="googleMap" class="w-100" style="height:450px;"></div>
+                    </div>
+
+                </div>
             </div>
         </div>
 
     </body>
+    <script>
+        function myMap() {
+            var mapProp = {
+                center: new google.maps.LatLng(51.508742, -0.120850),
+                zoom: 5,
+            };
+            var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+        }
+    </script>
+
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=myMap"></script>
     <script type="text/javascript" src="design-system.js"></script>
 
 </html>
