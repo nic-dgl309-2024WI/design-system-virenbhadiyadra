@@ -1,139 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="styles.css" />
-        <link rel="stylesheet" href="design-system.css" />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Merriweather:wght@400;700&display=swap"
-            rel="stylesheet" />
-    </head>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="design-system.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Merriweather:wght@400;700&display=swap"
+        rel="stylesheet" />
+</head>
 
-    <body>
-        <!-- Mobile Navbar Toggle Button -->
-        <input type="checkbox" id="menu-toggle" />
-        <!-- Top Navbar -->
-        <header class="u-primary-bg flexbox jc-btwn">
-            <div class="logo flexbox ai-cn jc-btwn">
-                Design System
+<body>
+    <!-- Mobile Navbar Toggle Button -->
+    <input type="checkbox" id="menu-toggle" />
+    <!-- Top Navbar -->
+    <header class="u-primary-bg flexbox jc-btwn">
+        <div class="logo flexbox ai-cn jc-btwn">
+            <a href="design-system.html"><h3 class="u-primary-text">Design System
+            </h3></a>
 
-                <label for="nav__checkbox" class="nav__toggle">
-                    <img src="https://img.icons8.com/material-outlined/30/000000/menu--v1.png" id="hamburger"
-                        class="hamburger" />
-                    <img src="https://img.icons8.com/plumpy/30/000000/x.png" id="close-icon" class="close" />
-                </label>
-            </div>
-
-            <ul class="nav__menu desktop-tab">
-                <li><a href="About-me.html" class="u-body-font">About Me</a></li>
-                <li><a href="index.html" class="u-body-font">Demo site</a></li>
-
-            </ul>
-        </header>
-        <div class="flexbox content">
-            <nav class="nav u-second-bg">
-                <ul class="side-nav nav__menu">
-                    <li class="u-heading-font">
-                        <h3>Branding</h3>
-                    </li>
-                    <li><a href="colors.html" class="u-body-font">01 Colours</a></li>
-                    <li><a href="typography.html" class="u-body-font">02 Typography</a></li>
-                    <li class="u-heading-font">
-                        <h3>Utilities</h3>
-                    </li>
-                    <li><a href="spacing.html" class="u-body-font">03 Spacing</a></li>
-                    <li><a href="containers.html" class="u-body-font">04 Containers</a></li>
-                    <li><a href="images.html" class="u-body-font">05 Images</a></li>
-                    <li><a href="interactive.html" class="u-body-font">06 Interactive</a></li>
-                    <li class="u-heading-font">
-                        <h3>Navigation</h3>
-                    </li>
-                    <li><a href="navbar.html" class="u-body-font">07 Navbars</a></li>
-                    <li><a href="breadcrumbs.html" class="u-body-font">08 Breadcrumbs</a></li>
-                    <li><a href="pagintion.html" class="u-body-font">09 Pagination</a></li>
-                    <li class="u-heading-font">
-                        <h3>Blocks</h3>
-                    </li>
-                    <li><a href="hero.html" class="u-body-font">10 Hero</a></li>
-                    <li><a href="carousel.html" class="u-body-font active">11 Carousel</a></li>
-                    <li><a href="footer.html" class="u-body-font">12 Footer</a></li>
-                    <li class="u-heading-font">
-                        <h3>Components</h3>
-                    </li>
-                    <li><a href="cards.html" class="u-body-font">13 Cards</a></li>
-                    <li><a href="forms.html" class="u-body-font">14 Forms</a></li>
-                    <li><a href="accordions.html" class="u-body-font">15 Accordion</a></li>
-                    <li><a href="list.html" class="u-body-font">16 Lists</a></li>
-                </ul>
-            </nav>
-            <div class="sections">
-                <h1>11 Carousel</h1>
-
-                <h2 class="mt-40">Simple image carousel</h2>
-
-                <div class="mt-20">
-                    <div class="carousel-wrapper">
-                        <div class="carousel-slider">
-                            <div id="slide1" class="flex-all-center carousel-item image-round">
-                                <img
-                                    src="https://xcoder404.github.io/DGL-309-design_system/images/dummy_image_500X500.png" />
-                            </div>
-                            <div id="slide2" class="flex-all-center carousel-item image-round">
-                                <img
-                                    src="https://xcoder404.github.io/DGL-309-design_system/images/dummy_image_500X500.png" />
-                            </div>
-                            <div id="slide3" class="flex-all-center carousel-item image-round">
-                                <img
-                                    src="https://xcoder404.github.io/DGL-309-design_system/images/dummy_image_500X500.png" />
-                            </div>
-                        </div>
-
-                        <div class="carousel-nav">
-                            <a href="#slide1"></a>
-                            <a href="#slide2"></a>
-                            <a href="#slide3"></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="code pd-20 u-primary-textbg clr-white br-4 mt-20">
-                    <div class="flexbox ai-cn jc-btwn">
-                        <b>HTML</b>
-                        <img class="copy-button"
-                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdKvI3-iyFlIHsqo0THDckwV_EX-_qcRAjFM_s68VYQA&s"
-                            onclick="copyToClipboard(this)" />
-                    </div>
-                    <code>
-                        &lt;div class="carousel-wrapper"&gt;<br>
-                        <div class="pd-l-20">
-                            &lt;div class="carousel-slider"&gt;<br>
-                            <div class="pd-l-20">
-                                &lt;div id="slide1" class="flex-all-center carousel-item image-round"&gt;
-                                300*300 - 1 &lt;/div&gt;<br>
-                                &lt;div id="slide2" class="flex-all-center carousel-item image-round"&gt;
-                                300*300 - 2 &lt;/div&gt;<br>
-                                &lt;div id="slide3" class="flex-all-center carousel-item image-round"&gt;
-                                300*300 - 3 &lt;/div&gt;<br>
-                            </div>
-                            &lt;/div&gt;<br><br>
-
-                            &lt;div class="carousel-nav"&gt;<br>
-                            <div class="pd-l-20">
-                                &lt;a href="#slide1"&gt;&lt;/a&gt;<br>
-                                &lt;a href="#slide2"&gt;&lt;/a&gt;<br>
-                                &lt;a href="#slide3"&gt;&lt;/a&gt;<br>
-                            </div>
-                            &lt;/div&gt;<br>
-                        </div>
-                        &lt;/div&gt;<br>
-                      </code>
-                </div>
-            </div>
+            <label for="nav__checkbox" class="nav__toggle">
+                <img src="https://img.icons8.com/material-outlined/30/000000/menu--v1.png" id="hamburger"
+                    class="hamburger" />
+                <img src="https://img.icons8.com/plumpy/30/000000/x.png" id="close-icon" class="close" />
+            </label>
         </div>
 
-    </body>
-    <script type="text/javascript" src="design-system.js"></script>
+        <ul class="nav__menu desktop-tab">
+            <li><a href="About-me.html" class="u-body-font">About Me</a></li>
+            <li><a href="index.html" class="u-body-font">Demo site</a></li>
+
+        </ul>
+    </header>
+    <div class="flexbox content">
+        <nav class="nav u-second-bg">
+            <ul class="side-nav nav__menu">
+                <li class="u-heading-font">
+                    <h3>Branding</h3>
+                </li>
+                <li><a href="colors.html" class="u-body-font">01 Colours</a></li>
+                <li><a href="typography.html" class="u-body-font">02 Typography</a></li>
+                <li class="u-heading-font">
+                    <h3>Utilities</h3>
+                </li>
+                <li><a href="spacing.html" class="u-body-font">03 Spacing</a></li>
+                <li><a href="containers.html" class="u-body-font">04 Containers</a></li>
+                <li><a href="images.html" class="u-body-font">05 Images</a></li>
+                <li><a href="interactive.html" class="u-body-font">06 Interactive</a></li>
+                <li class="u-heading-font">
+                    <h3>Navigation</h3>
+                </li>
+                <li><a href="navbar.html" class="u-body-font">07 Navbars</a></li>
+                <li><a href="breadcrumbs.html" class="u-body-font">08 Breadcrumbs</a></li>
+                <li><a href="pagintion.html" class="u-body-font">09 Pagination</a></li>
+                <li class="u-heading-font">
+                    <h3>Blocks</h3>
+                </li>
+                <li><a href="hero.html" class="u-body-font">10 Hero</a></li>
+                <li><a href="carousel.html" class="u-body-font active">11 Carousel</a></li>
+                <li><a href="footer.html" class="u-body-font">12 Footer</a></li>
+                <li class="u-heading-font">
+                    <h3>Components</h3>
+                </li>
+                <li><a href="cards.html" class="u-body-font">13 Cards</a></li>
+                <li><a href="forms.html" class="u-body-font">14 Forms</a></li>
+                <li><a href="accordions.html" class="u-body-font">15 Accordion</a></li>
+                <li><a href="list.html" class="u-body-font">16 Lists</a></li>
+            </ul>
+        </nav>
+        <div class="sections">
+            <h1>11 Carousel</h1>
+
+            <h2 class="mt-40">Simple image carousel</h2>
+
+            <div class="mt-20">
+                <div class="carousel-wrapper">
+                    <div class="carousel-slider">
+                        <div id="slide1" class="flex-all-center carousel-item image-round">
+                            <img
+                                src="https://xcoder404.github.io/DGL-309-design_system/images/dummy_image_500X500.png" />
+                        </div>
+                        <div id="slide2" class="flex-all-center carousel-item image-round">
+                            <img
+                                src="https://xcoder404.github.io/DGL-309-design_system/images/dummy_image_500X500.png" />
+                        </div>
+                        <div id="slide3" class="flex-all-center carousel-item image-round">
+                            <img
+                                src="https://xcoder404.github.io/DGL-309-design_system/images/dummy_image_500X500.png" />
+                        </div>
+                    </div>
+
+                    <div class="carousel-nav">
+                        <a href="#slide1"></a>
+                        <a href="#slide2"></a>
+                        <a href="#slide3"></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="code pd-20 u-primary-textbg clr-white br-4 mt-20">
+                <div class="flexbox ai-cn jc-btwn">
+                    <b>HTML</b>
+                    <img class="copy-button"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdKvI3-iyFlIHsqo0THDckwV_EX-_qcRAjFM_s68VYQA&s"
+                        onclick="copyToClipboard(this)" />
+                </div>
+                <code>
+                    &lt;div class="carousel-wrapper"&gt;<br>
+                    &lt;div class="pd-l-20"&gt;<br>
+                    &lt;div class="carousel-slider"&gt;<br>
+                    &lt;div class="pd-l-20"&gt;<br>
+                    &lt;div id="slide1" class="flex-all-center carousel-item image-round"&gt;<br>
+                    300*300 - 1 &lt;/div&gt;<br>
+                    &lt;div id="slide2" class="flex-all-center carousel-item image-round"&gt;<br>
+                    300*300 - 2 &lt;/div&gt;<br>
+                    &lt;div id="slide3" class="flex-all-center carousel-item image-round"&gt;<br>
+                    300*300 - 3 &lt;/div&gt;<br>
+                    &lt;/div&gt;<br>
+                    &lt;/div&gt;<br>
+                    &lt;/div&gt;<br>
+                    &lt;div class="carousel-nav"&gt;<br>
+                    &lt;div class="pd-l-20"&gt;<br>
+                    &lt;a href="#slide1"&gt;&lt;/a&gt;<br>
+                    &lt;a href="#slide2"&gt;&lt;/a&gt;<br>
+                    &lt;a href="#slide3"&gt;&lt;/a&gt;<br>
+                    &lt;/div&gt;<br>
+                    &lt;/div&gt;<br>
+                    &lt;/div&gt;<br>
+                </code>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script type="text/javascript" src="design-system.js"></script>
 
 </html>

@@ -1,323 +1,360 @@
 <!DOCTYPE html>
-
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="styles.css" />
-        <link rel="stylesheet" href="design-system.css" />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Merriweather:wght@400;700&display=swap"
-            rel="stylesheet" />
-    </head>
+<head>
+    <!-- Meta tags for character set and viewport -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Link to external stylesheets -->
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="design-system.css" />
+    <!-- Link to Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet" />
+</head>
 
-    <body>
-        <!-- Mobile Navbar Toggle Button -->
-        <input type="checkbox" id="menu-toggle" />
-        <!-- Top Navbar -->
-        <header class="u-primary-bg flexbox jc-btwn">
-            <div class="logo flexbox ai-cn jc-btwn">
-                Design System
-
-                <label for="nav__checkbox" class="nav__toggle">
-                    <img src="https://img.icons8.com/material-outlined/30/000000/menu--v1.png" id="hamburger"
-                        class="hamburger" />
-                    <img src="https://img.icons8.com/plumpy/30/000000/x.png" id="close-icon" class="close" />
-                </label>
-            </div>
-
-            <ul class="nav__menu desktop-tab">
-                <li><a href="About-me.html" class="u-body-font">About Me</a></li>
-                <li><a href="index.html" class="u-body-font">Demo site</a></li>
-
+<body>
+    <!-- Mobile Navbar Toggle Button -->
+    <input type="checkbox" id="menu-toggle" />
+    <!-- Top Navbar -->
+    <header class="u-primary-bg flexbox jc-btwn">
+        <div class="logo flexbox ai-cn jc-btwn">
+            <a href="design-system.html">
+                <!-- Logo and heading -->
+                <h3 class="u-primary-text">Design System</h3>
+            </a>
+            <!-- Navigation toggle button -->
+            <label for="nav__checkbox" class="nav__toggle">
+                <img src="https://img.icons8.com/material-outlined/30/000000/menu--v1.png" id="hamburger" class="hamburger" />
+                <img src="https://img.icons8.com/plumpy/30/000000/x.png" id="close-icon" class="close" />
+            </label>
+        </div>
+        <!-- Desktop navigation menu -->
+        <ul class="nav__menu desktop-tab">
+            <li><a href="About-me.html" class="u-body-font">About Me</a></li>
+            <li><a href="index.html" class="u-body-font">Demo site</a></li>
+        </ul>
+    </header>
+    <div class="flexbox content">
+        <!-- Side navigation -->
+        <nav class="nav u-second-bg">
+            <ul class="side-nav nav__menu">
+                <!-- Category headings -->
+                <li class="u-heading-font">
+                    <h3>Branding</h3>
+                </li>
+                <!-- Navigation links -->
+                <li><a href="colors.html" class="u-body-font">01 Colours</a></li>
+                <li><a href="typography.html" class="u-body-font">02 Typography</a></li>
+                <li class="u-heading-font">
+                    <h3>Utilities</h3>
+                </li>
+                <li><a href="spacing.html" class="u-body-font">03 Spacing</a></li>
+                <li><a href="containers.html" class="u-body-font">04 Containers</a></li>
+                <li><a href="images.html" class="u-body-font">05 Images</a></li>
+                <li><a href="interactive.html" class="u-body-font">06 Interactive</a></li>
+                <li class="u-heading-font">
+                    <h3>Navigation</h3>
+                </li>
+                <li><a href="navbar.html" class="u-body-font">07 Navbars</a></li>
+                <li><a href="breadcrumbs.html" class="u-body-font">08 Breadcrumbs</a></li>
+                <li><a href="pagintion.html" class="u-body-font">09 Pagination</a></li>
+                <li class="u-heading-font">
+                    <h3>Blocks</h3>
+                </li>
+                <li><a href="hero.html" class="u-body-font">10 Hero</a></li>
+                <li><a href="carousel.html" class="u-body-font">11 Carousel</a></li>
+                <li><a href="footer.html" class="u-body-font">12 Footer</a></li>
+                <li class="u-heading-font">
+                    <h3>Components</h3>
+                </li>
+                <li><a href="cards.html" class="u-body-font">13 Cards</a></li>
+                <li><a href="forms.html" class="u-body-font">14 Forms</a></li>
+                <!-- Active accordion link -->
+                <li><a href="accordions.html" class="u-body-font active">15 Accordion</a></li>
+                <li><a href="list.html" class="u-body-font">16 Lists</a></li>
             </ul>
-        </header>
-        <div class="flexbox content">
-            <nav class="nav u-second-bg">
-                <ul class="side-nav nav__menu">
-                    <li class="u-heading-font">
-                        <h3>Branding</h3>
-                    </li>
-                    <li><a href="colors.html" class="u-body-font">01 Colours</a></li>
-                    <li><a href="typography.html" class="u-body-font">02 Typography</a></li>
-                    <li class="u-heading-font">
-                        <h3>Utilities</h3>
-                    </li>
-                    <li><a href="spacing.html" class="u-body-font">03 Spacing</a></li>
-                    <li><a href="containers.html" class="u-body-font">04 Containers</a></li>
-                    <li><a href="images.html" class="u-body-font">05 Images</a></li>
-                    <li><a href="interactive.html" class="u-body-font">06 Interactive</a></li>
-                    <li class="u-heading-font">
-                        <h3>Navigation</h3>
-                    </li>
-                    <li><a href="navbar.html" class="u-body-font">07 Navbars</a></li>
-                    <li><a href="breadcrumbs.html" class="u-body-font">08 Breadcrumbs</a></li>
-                    <li><a href="pagintion.html" class="u-body-font">09 Pagination</a></li>
-                    <li class="u-heading-font">
-                        <h3>Blocks</h3>
-                    </li>
-                    <li><a href="hero.html" class="u-body-font">10 Hero</a></li>
-                    <li><a href="carousel.html" class="u-body-font">11 Carousel</a></li>
-                    <li><a href="footer.html" class="u-body-font">12 Footer</a></li>
-                    <li class="u-heading-font">
-                        <h3>Components</h3>
-                    </li>
-                    <li><a href="cards.html" class="u-body-font">13 Cards</a></li>
-                    <li><a href="forms.html" class="u-body-font">14 Forms</a></li>
-                    <li><a href="accordions.html" class="u-body-font active">15 Accordion</a></li>
-                    <li><a href="list.html" class="u-body-font">16 Lists</a></li>
-                </ul>
-            </nav>
-            <div class="sections">
-                <h1>15 Accordions</h1>
-
-                <h2 class="mt-40">Example</h2>
-
-                <div class="acc-item mry-5">
-                    <input type="checkbox" id="acc1" />
-                    <label class="acc-lbl" for="acc1">Accordion #1</label>
-                    <div class="acc-para">
-                        <p class="mry-3">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Distinctio ipsum ad cumque, exercitationem laboriosam, earum ipsam
-                            asperiores nulla reprehenderit nam impedit minus, sit blanditiis
-                            cupiditate eaque! Quam, soluta illo amet quibusdam magni delectus
-                            aut! Mollitia, quos a.
-                        </p>
-                    </div>
-                    <input type="checkbox" id="acc2" />
-                    <label class="acc-lbl" for="acc2">Accordion #2</label>
-                    <div class="acc-para">
-                        <p class="mry-3">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Distinctio ipsum ad cumque, exercitationem laboriosam, earum ipsam
-                            asperiores nulla reprehenderit nam impedit minus, sit blanditiis
-                            cupiditate eaque! Quam, soluta illo amet quibusdam magni delectus
-                            aut! Mollitia, quos a.
-                        </p>
-                    </div>
-                    <input type="checkbox" id="acc3" />
-                    <label class="acc-lbl" for="acc3">Accordion #3</label>
-                    <div class="acc-para">
-                        <p class="mry-3">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Distinctio ipsum ad cumque, exercitationem laboriosam, earum ipsam
-                            asperiores nulla reprehenderit nam impedit minus, sit blanditiis
-                            cupiditate eaque! Quam, soluta illo amet quibusdam magni delectus
-                            aut! Mollitia, quos a.
-                        </p>
-                    </div>
-                    <input type="checkbox" id="acc4" />
-                    <label class="acc-lbl" for="acc4">Accordion #4</label>
-                    <div class="acc-para">
-                        <p class="mry-3">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Distinctio ipsum ad cumque, exercitationem laboriosam, earum ipsam
-                            asperiores nulla reprehenderit nam impedit minus, sit blanditiis
-                            cupiditate eaque! Quam, soluta illo amet quibusdam magni delectus
-                            aut! Mollitia, quos a.
-                        </p>
-                    </div>
+        </nav>
+        <div class="sections">
+            <!-- Section title -->
+            <h1>15 Accordions</h1>
+            <!-- Example section -->
+            <h2 class="mt-40">Example</h2>
+            <!-- Accordions with content -->
+            <div class="acc-item mry-5">
+                <!-- Accordion #1 -->
+                <input type="checkbox" id="acc1" />
+                <label class="acc-lbl" for="acc1">Accordion #1</label>
+                <div class="acc-para">
+                    <p class="mry-3">
+                        <!-- Lorem Ipsum text -->
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Distinctio ipsum ad cumque, exercitationem laboriosam, earum ipsam
+                        asperiores nulla reprehenderit nam impedit minus, sit blanditiis
+                        cupiditate eaque! Quam, soluta illo amet quibusdam magni delectus
+                        aut! Mollitia, quos a.
+                    </p>
                 </div>
-
-                <div class="code pd-20 u-primary-textbg clr-white br-4 mt-20">
-                    <div class="flexbox ai-cn jc-btwn">
-                        <b>HTML</b>
-                        <img class="copy-button"
-                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdKvI3-iyFlIHsqo0THDckwV_EX-_qcRAjFM_s68VYQA&s"
-                            onclick="copyToClipboard(this)" />
-                    </div>
-                    <code>
-						&lt;div class="acc-item"&gt;<br /><br />
-
-						<div class="pd-l-20">
-							&lt;input type="checkbox" id="acc1" /&gt;<br />
-							&lt;label class="acc-lbl" for="acc1"&gt;acc
-							#1&lt;/label&gt;<br />
-							&lt;div class="acc-para"&gt;<br />
-							<div class="pd-l-50">
-								&lt;p class="mry-3"&gt;<br />
-								Lorem ipsum dolor sit amet consectetur adipisicing elit.
-								Distinctio ipsum ad cumque, exercitationem laboriosam, earum
-								ipsam asperiores nulla reprehenderit nam impedit minus, sit
-								blanditiis cupiditate eaque! Quam, soluta illo amet quibusdam
-								magni delectus aut! Mollitia, quos a. &lt;/p&gt;<br />
-							</div>
-							<br />
-							&lt;/div&gt;<br /><br />
-							&lt;input type="checkbox" id="acc2" /&gt;<br />
-							&lt;label class="acc-lbl" for="acc2"&gt;acc
-							#2&lt;/label&gt;<br />
-							&lt;div class="acc-para"&gt;<br />
-							<div class="pd-l-50">
-								&lt;p class="mry-3"&gt;<br />
-								Lorem ipsum dolor sit amet consectetur adipisicing elit.
-								Distinctio ipsum ad cumque, exercitationem laboriosam, earum
-								ipsam asperiores nulla reprehenderit nam impedit minus, sit
-								blanditiis cupiditate eaque! Quam, soluta illo amet quibusdam
-								magni delectus aut! Mollitia, quos a. &lt;/p&gt;<br />
-							</div>
-							<br />
-							&lt;/div&gt;<br /><br />
-							&lt;input type="checkbox" id="acc3" /&gt;<br />
-							&lt;label class="acc-lbl" for="acc3"&gt;acc
-							#3&lt;/label&gt;<br />
-							&lt;div class="acc-para"&gt;<br />
-							<div class="pd-l-50">
-								&lt;p class="mry-3"&gt;<br />
-								Lorem ipsum dolor sit amet consectetur adipisicing elit.
-								Distinctio ipsum ad cumque, exercitationem laboriosam, earum
-								ipsam asperiores nulla reprehenderit nam impedit minus, sit
-								blanditiis cupiditate eaque! Quam, soluta illo amet quibusdam
-								magni delectus aut! Mollitia, quos a. &lt;/p&gt;<br />
-							</div>
-							<br />
-							&lt;/div&gt;<br /><br />
-							&lt;input type="checkbox" id="acc4" /&gt;<br />
-							&lt;label class="acc-lbl" for="acc4"&gt;acc
-							#4&lt;/label&gt;<br />
-							&lt;div class="acc-para"&gt;<br />
-							<div class="pd-l-50">
-								&lt;p class="mry-3"&gt;<br />
-								Lorem ipsum dolor sit amet consectetur adipisicing elit.
-								Distinctio ipsum ad cumque, exercitationem laboriosam, earum
-								ipsam asperiores nulla reprehenderit nam impedit minus, sit
-								blanditiis cupiditate eaque! Quam, soluta illo amet quibusdam
-								magni delectus aut! Mollitia, quos a. &lt;/p&gt;<br />
-							</div>
-							<br />
-							&lt;/div&gt;<br />
-						</div>
-						&lt;/div&gt;<br />
-					</code>
+                <!-- Accordion #2 -->
+                <input type="checkbox" id="acc2" />
+                <label class="acc-lbl" for="acc2">Accordion #2</label>
+                <div class="acc-para">
+                    <p class="mry-3">
+                        <!-- Lorem Ipsum text -->
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Distinctio ipsum ad cumque, exercitationem laboriosam, earum ipsam
+                        asperiores nulla reprehenderit nam impedit minus, sit blanditiis
+                        cupiditate eaque! Quam, soluta illo amet quibusdam magni delectus
+                        aut! Mollitia, quos a.
+                    </p>
                 </div>
-
-                <h2 class="mt-40">Accordion label</h2>
-                <p class="mt-20 description">
-                    Change the lable by adding .acc-arr class to label element.
-                </p>
-                <div class="acc-item mt-40">
-                    <input type="checkbox" id="accs1" />
-                    <label class="acc-arr" for="accs1">Accordion #1</label>
-                    <div class="acc-para">
-                        <p class="mry-3">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Distinctio ipsum ad cumque, exercitationem laboriosam, earum ipsam
-                            asperiores nulla reprehenderit nam impedit minus, sit blanditiis
-                            cupiditate eaque! Quam, soluta illo amet quibusdam magni delectus
-                            aut! Mollitia, quos a.
-                        </p>
-                    </div>
-                    <input type="checkbox" id="accs2" />
-                    <label class="acc-arr" for="accs2">Accordion #2</label>
-                    <div class="acc-para">
-                        <p class="mry-3">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Distinctio ipsum ad cumque, exercitationem laboriosam, earum ipsam
-                            asperiores nulla reprehenderit nam impedit minus, sit blanditiis
-                            cupiditate eaque! Quam, soluta illo amet quibusdam magni delectus
-                            aut! Mollitia, quos a.
-                        </p>
-                    </div>
-                    <input type="checkbox" id="accs3" />
-                    <label class="acc-arr" for="accs3">Accordion #3</label>
-                    <div class="acc-para">
-                        <p class="mry-3">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Distinctio ipsum ad cumque, exercitationem laboriosam, earum ipsam
-                            asperiores nulla reprehenderit nam impedit minus, sit blanditiis
-                            cupiditate eaque! Quam, soluta illo amet quibusdam magni delectus
-                            aut! Mollitia, quos a.
-                        </p>
-                    </div>
-                    <input type="checkbox" id="accs4" />
-                    <label class="acc-arr" for="accs4">Accordion #4</label>
-                    <div class="acc-para">
-                        <p class="mry-3">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Distinctio ipsum ad cumque, exercitationem laboriosam, earum ipsam
-                            asperiores nulla reprehenderit nam impedit minus, sit blanditiis
-                            cupiditate eaque! Quam, soluta illo amet quibusdam magni delectus
-                            aut! Mollitia, quos a.
-                        </p>
-                    </div>
+                <!-- Accordion #3 -->
+                <input type="checkbox" id="acc3" />
+                <label class="acc-lbl" for="acc3">Accordion #3</label>
+                <div class="acc-para">
+                    <p class="mry-3">
+                        <!-- Lorem Ipsum text -->
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Distinctio ipsum ad cumque, exercitationem laboriosam, earum ipsam
+                        asperiores nulla reprehenderit nam impedit minus, sit blanditiis
+                        cupiditate eaque! Quam, soluta illo amet quibusdam magni delectus
+                        aut! Mollitia, quos a.
+                    </p>
                 </div>
-
-                <div class="code pd-20 u-primary-textbg clr-white br-4 mt-40">
-                    <div class="flexbox ai-cn jc-btwn">
-                        <b>HTML</b>
-                        <img class="copy-button"
-                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdKvI3-iyFlIHsqo0THDckwV_EX-_qcRAjFM_s68VYQA&s"
-                            onclick="copyToClipboard(this)" />
-                    </div>
-                    <code>
-						&lt;div class="acc-item"&gt;<br />
-						<div class="pd-l-20">
-							&lt;input type="checkbox" id="acc1" /&gt;<br />
-							&lt;label class="acc-arr" for="acc1"&gt;acc
-							#1&lt;/label&gt;<br />
-							&lt;div class="acc-para"&gt;<br />
-							<div class="pd-l-50">
-								&lt;p class="mry-3"&gt;<br />
-								Lorem ipsum dolor sit amet consectetur adipisicing elit.
-								Distinctio ipsum ad cumque, exercitationem laboriosam, earum
-								ipsam asperiores nulla reprehenderit nam impedit minus, sit
-								blanditiis cupiditate eaque! Quam, soluta illo amet quibusdam
-								magni delectus aut! Mollitia, quos a. &lt;/p&gt;<br />
-							</div>
-							&lt;/div&gt;<br /><br />
-
-							&lt;input type="checkbox" id="acc2" /&gt;<br />
-							&lt;label class="acc-arr" for="acc2"&gt;acc
-							#2&lt;/label&gt;<br />
-							&lt;div class="acc-para"&gt;<br />
-							<div class="pd-l-50">
-								&lt;p class="mry-3"&gt;<br />
-								Lorem ipsum dolor sit amet consectetur adipisicing elit.
-								Distinctio ipsum ad cumque, exercitationem laboriosam, earum
-								ipsam asperiores nulla reprehenderit nam impedit minus, sit
-								blanditiis cupiditate eaque! Quam, soluta illo amet quibusdam
-								magni delectus aut! Mollitia, quos a. &lt;/p&gt;<br />
-							</div>
-							&lt;/div&gt;<br /><br />
-
-							&lt;input type="checkbox" id="acc3" /&gt;<br />
-							&lt;label class="acc-arr" for="acc3"&gt;acc
-							#3&lt;/label&gt;<br />
-							&lt;div class="acc-para"&gt;<br />
-							<div class="pd-l-50">
-								&lt;p class="mry-3"&gt;<br />
-								Lorem ipsum dolor sit amet consectetur adipisicing elit.
-								Distinctio ipsum ad cumque, exercitationem laboriosam, earum
-								ipsam asperiores nulla reprehenderit nam impedit minus, sit
-								blanditiis cupiditate eaque! Quam, soluta illo amet quibusdam
-								magni delectus aut! Mollitia, quos a. &lt;/p&gt;<br />
-							</div>
-							&lt;/div&gt;<br /><br />
-
-							&lt;input type="checkbox" id="acc4" /&gt;<br />
-							&lt;label class="acc-arr" for="acc4"&gt;acc
-							#4&lt;/label&gt;<br />
-							&lt;div class="acc-para"&gt;<br />
-							<div class="pd-l-50">
-								&lt;p class="mry-3"&gt;<br />
-								Lorem ipsum dolor sit amet consectetur adipisicing elit.
-								Distinctio ipsum ad cumque, exercitationem laboriosam, earum
-								ipsam asperiores nulla reprehenderit nam impedit minus, sit
-								blanditiis cupiditate eaque! Quam, soluta illo amet quibusdam
-								magni delectus aut! Mollitia, quos a. &lt;/p&gt;<br />
-							</div>
-
-							&lt;/div&gt;<br />
-						</div>
-						&lt;/div&gt;<br />
-					</code>
+                <!-- Accordion #4 -->
+                <input type="checkbox" id="acc4" />
+                <label class="acc-lbl" for="acc4">Accordion #4</label>
+                <div class="acc-para">
+                    <p class="mry-3">
+                        <!-- Lorem Ipsum text -->
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Distinctio ipsum ad cumque, exercitationem laboriosam, earum ipsam
+                        asperiores nulla reprehenderit nam impedit minus, sit blanditiis
+                        cupiditate eaque! Quam, soluta illo amet quibusdam magni delectus
+                        aut! Mollitia, quos a.
+                    </p>
                 </div>
+            </div>
+            <!-- Code snippet for the example -->
+            <div class="code pd-20 u-primary-textbg clr-white br-4 mt-20">
+                <div class="flexbox ai-cn jc-btwn">
+                    <!-- Code language -->
+                    <b>HTML</b>
+                    <!-- Copy button for code -->
+                    <img class="copy-button" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdKvI3-iyFlIHsqo0THDckwV_EX-_qcRAjFM_s68VYQA&s" onclick="copyToClipboard(this)" />
+                </div>
+                <!-- HTML code for the example -->
+                <code>
+                    <!-- Accordion items -->
+                    &lt;div class="acc-item"&gt;<br /><br />
+                    <!-- Accordion #1 -->
+                    <div class="pd-l-20">
+                        &lt;input type="checkbox" id="acc1" /&gt;<br />
+                        &lt;label class="acc-lbl" for="acc1"&gt;acc
+                        #1&lt;/label&gt;<br />
+                        &lt;div class="acc-para"&gt;<br />
+                        <div class="pd-l-50">
+                            &lt;p class="mry-3"&gt;<br />
+                            <!-- Lorem Ipsum text -->
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Distinctio ipsum ad cumque, exercitationem laboriosam, earum
+                            ipsam asperiores nulla reprehenderit nam impedit minus, sit
+                            blanditiis cupiditate eaque! Quam, soluta illo amet quibusdam
+                            magni delectus aut! Mollitia, quos a. &lt;/p&gt;<br />
+                        </div>
+                        &lt;/div&gt;<br /><br />
+                        <!-- Accordion #2 -->
+                        &lt;input type="checkbox" id="acc2" /&gt;<br />
+                        &lt;label class="acc-lbl" for="acc2"&gt;acc
+                        #2&lt;/label&gt;<br />
+                        &lt;div class="acc-para"&gt;<br />
+                        <div class="pd-l-50">
+                            &lt;p class="mry-3"&gt;<br />
+                            <!-- Lorem Ipsum text -->
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Distinctio ipsum ad cumque, exercitationem laboriosam, earum
+                            ipsam asperiores nulla reprehenderit nam impedit minus, sit
+                            blanditiis cupiditate eaque! Quam, soluta illo amet quibusdam
+                            magni delectus aut! Mollitia, quos a. &lt;/p&gt;<br />
+                        </div>
+                        &lt;/div&gt;<br /><br />
+                        <!-- Accordion #3 -->
+                        &lt;input type="checkbox" id="acc3" /&gt;<br />
+                        &lt;label class="acc-lbl" for="acc3"&gt;acc
+                        #3&lt;/label&gt;<br />
+                        &lt;div class="acc-para"&gt;<br />
+                        <div class="pd-l-50">
+                            &lt;p class="mry-3"&gt;<br />
+                            <!-- Lorem Ipsum text -->
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Distinctio ipsum ad cumque, exercitationem laboriosam, earum
+                            ipsam asperiores nulla reprehenderit nam impedit minus, sit
+                            blanditiis cupiditate eaque! Quam, soluta illo amet quibusdam
+                            magni delectus aut! Mollitia, quos a. &lt;/p&gt;<br />
+                        </div>
+                        &lt;/div&gt;<br /><br />
+                        <!-- Accordion #4 -->
+                        &lt;input type="checkbox" id="acc4" /&gt;<br />
+                        &lt;label class="acc-lbl" for="acc4"&gt;acc
+                        #4&lt;/label&gt;<br />
+                        &lt;div class="acc-para"&gt;<br />
+                        <div class="pd-l-50">
+                            &lt;p class="mry-3"&gt;<br />
+                            <!-- Lorem Ipsum text -->
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Distinctio ipsum ad cumque, exercitationem laboriosam, earum
+                            ipsam asperiores nulla reprehenderit nam impedit minus, sit
+                            blanditiis cupiditate eaque! Quam, soluta illo amet quibusdam
+                            magni delectus aut! Mollitia, quos a. &lt;/p&gt;<br />
+                        </div>
+                        &lt;/div&gt;<br />
+                    </div>
+                    &lt;/div&gt;<br />
+                </code>
+            </div>
+            <!-- Section title for accordion labels -->
+            <h2 class="mt-40">Accordion label</h2>
+            <!-- Description for customizing accordion labels -->
+            <p class="mt-20 description">
+                Change the label by adding .acc-arr class to label element.
+            </p>
+            <!-- Accordions with custom labels -->
+            <div class="acc-item mt-40">
+                <!-- Accordion #1 -->
+                <input type="checkbox" id="accs1" />
+                <label class="acc-arr" for="accs1">Accordion #1</label>
+                <div class="acc-para">
+                    <p class="mry-3">
+                        <!-- Lorem Ipsum text -->
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Distinctio ipsum ad cumque, exercitationem laboriosam, earum ipsam
+                        asperiores nulla reprehenderit nam impedit minus, sit blanditiis
+                        cupiditate eaque! Quam, soluta illo amet quibusdam magni delectus
+                        aut! Mollitia, quos a.
+                    </p>
+                </div>
+                <!-- Accordion #2 -->
+                <input type="checkbox" id="accs2" />
+                <label class="acc-arr" for="accs2">Accordion #2</label>
+                <div class="acc-para">
+                    <p class="mry-3">
+                        <!-- Lorem Ipsum text -->
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Distinctio ipsum ad cumque, exercitationem laboriosam, earum ipsam
+                        asperiores nulla reprehenderit nam impedit minus, sit blanditiis
+                        cupiditate eaque! Quam, soluta illo amet quibusdam magni delectus
+                        aut! Mollitia, quos a.
+                    </p>
+                </div>
+                <!-- Accordion #3 -->
+                <input type="checkbox" id="accs3" />
+                <label class="acc-arr" for="accs3">Accordion #3</label>
+                <div class="acc-para">
+                    <p class="mry-3">
+                        <!-- Lorem Ipsum text -->
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Distinctio ipsum ad cumque, exercitationem laboriosam, earum ipsam
+                        asperiores nulla reprehenderit nam impedit minus, sit blanditiis
+                        cupiditate eaque! Quam, soluta illo amet quibusdam magni delectus
+                        aut! Mollitia, quos a.
+                    </p>
+                </div>
+                <!-- Accordion #4 -->
+                <input type="checkbox" id="accs4" />
+                <label class="acc-arr" for="accs4">Accordion #4</label>
+                <div class="acc-para">
+                    <p class="mry-3">
+                        <!-- Lorem Ipsum text -->
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Distinctio ipsum ad cumque, exercitationem laboriosam, earum ipsam
+                        asperiores nulla reprehenderit nam impedit minus, sit blanditiis
+                        cupiditate eaque! Quam, soluta illo amet quibusdam magni delectus
+                        aut! Mollitia, quos a.
+                    </p>
+                </div>
+            </div>
+            <!-- Code snippet for custom accordion labels -->
+            <div class="code pd-20 u-primary-textbg clr-white br-4 mt-40">
+                <div class="flexbox ai-cn jc-btwn">
+                    <!-- Code language -->
+                    <b>HTML</b>
+                    <!-- Copy button for code -->
+                    <img class="copy-button" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdKvI3-iyFlIHsqo0THDckwV_EX-_qcRAjFM_s68VYQA&s" onclick="copyToClipboard(this)" />
+                </div>
+                <!-- HTML code for custom accordion labels -->
+                <code>
+                    <!-- Accordion items -->
+                    &lt;div class="acc-item"&gt;<br />
+                    <!-- Accordion #1 -->
+                    <div class="pd-l-20">
+                        &lt;input type="checkbox" id="acc1" /&gt;<br />
+                        &lt;label class="acc-arr" for="acc1"&gt;acc
+                        #1&lt;/label&gt;<br />
+                        &lt;div class="acc-para"&gt;<br />
+                        <div class="pd-l-50">
+                            &lt;p class="mry-3"&gt;<br />
+                            <!-- Lorem Ipsum text -->
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Distinctio ipsum ad cumque, exercitationem laboriosam, earum
+                            ipsam asperiores nulla reprehenderit nam impedit minus, sit
+                            blanditiis cupiditate eaque! Quam, soluta illo amet quibusdam
+                            magni delectus aut! Mollitia, quos a. &lt;/p&gt;<br />
+                        </div>
+                        &lt;/div&gt;<br /><br />
+                        <!-- Accordion #2 -->
+                        &lt;input type="checkbox" id="acc2" /&gt;<br />
+                        &lt;label class="acc-arr" for="acc2"&gt;acc
+                        #2&lt;/label&gt;<br />
+                        &lt;div class="acc-para"&gt;<br />
+                        <div class="pd-l-50">
+                            &lt;p class="mry-3"&gt;<br />
+                            <!-- Lorem Ipsum text -->
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Distinctio ipsum ad cumque, exercitationem laboriosam, earum
+                            ipsam asperiores nulla reprehenderit nam impedit minus, sit
+                            blanditiis cupiditate eaque! Quam, soluta illo amet quibusdam
+                            magni delectus aut! Mollitia, quos a. &lt;/p&gt;<br />
+                        </div>
+                        &lt;/div&gt;<br /><br />
+                        <!-- Accordion #3 -->
+                        &lt;input type="checkbox" id="acc3" /&gt;<br />
+                        &lt;label class="acc-arr" for="acc3"&gt;acc
+                        #3&lt;/label&gt;<br />
+                        &lt;div class="acc-para"&gt;<br />
+                        <div class="pd-l-50">
+                            &lt;p class="mry-3"&gt;<br />
+                            <!-- Lorem Ipsum text -->
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Distinctio ipsum ad cumque, exercitationem laboriosam, earum
+                            ipsam asperiores nulla reprehenderit nam impedit minus, sit
+                            blanditiis cupiditate eaque! Quam, soluta illo amet quibusdam
+                            magni delectus aut! Mollitia, quos a. &lt;/p&gt;<br />
+                        </div>
+                        &lt;/div&gt;<br /><br />
+                        <!-- Accordion #4 -->
+                        &lt;input type="checkbox" id="acc4" /&gt;<br />
+                        &lt;label class="acc-arr" for="acc4"&gt;acc
+                        #4&lt;/label&gt;<br />
+                        &lt;div class="acc-para"&gt;<br />
+                        <div class="pd-l-50">
+                            &lt;p class="mry-3"&gt;<br />
+                            <!-- Lorem Ipsum text -->
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Distinctio ipsum ad cumque, exercitationem laboriosam, earum
+                            ipsam asperiores nulla reprehenderit nam impedit minus, sit
+                            blanditiis cupiditate eaque! Quam, soluta illo amet quibusdam
+                            magni delectus aut! Mollitia, quos a. &lt;/p&gt;<br />
+                        </div>
+
+                        &lt;/div&gt;<br />
+                    </div>
+                    &lt;/div&gt;<br />
+                </code>
             </div>
         </div>
-
-    </body>
+    </div>
+    <!-- JavaScript file for functionality -->
     <script type="text/javascript" src="design-system.js"></script>
+
+</body>
 
 </html>

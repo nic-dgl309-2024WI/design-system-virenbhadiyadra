@@ -1,38 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
+    <!-- Meta tags for character set and viewport -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Title of the document -->
     <title>Document</title>
+    <!-- Link to external CSS files -->
     <link rel="stylesheet" type="text/css" href="styles.css" />
-  </head>
-  <body content="width=device-width, initial-scale=1.0" class="container">
-      <!-- add your name -->
-    <h1>Hi! My name is Viren Bhadiyadra</h1>
-    <h2>I am a web developer.</h2>
-    <!-- add your portrait photo -->
-    <img
-      src="images/viren.JPEG"
-      alt="Portrait of Viren Bhadiyadra"
-      style="width: 500px; height: 500px"
-    />
-    <!-- add a short biography. Include where you are from, your education background, your current program, and something interesting about yourself. -->
-    <p>
-      Hi, I'm Viren Bhadiyadra from the western part of India (Gujarat). I have a degree in Information Technology. Currently, I am pursuing my PGD in Design + Development (WEB Stream). An interesting fact about me is that I love animals, and I care about them, which is why I have been following veganism for the past year.
-    </p>
-    <!-- add a list of your favourite web development tools. -->
-    <p>My favourite tools are</p>
-    <ul>
-      <li>Procreate</li>
-      <li>Adobe Illustrator</li>
-      <li>Adobe XD</li>
-    </ul>
-    <!-- add a list of your strongest web development skills. -->
-    <p>My skills include</p>
-    <ul>
-      <li>Digital Drawing</li>
-      <li>Illustrations</li>
-      <li>UI Design</li>
-    </ul>
-  </body>
+    <link rel="stylesheet" type="text/css" href="design-system.css" />
+  
+</head>
+
+<body content="width=device-width, initial-scale=1.0" class="container">
+    <!-- Mobile Navbar Toggle Button -->
+    <input type="checkbox" id="menu-toggle" />
+    <!-- Top Navbar -->
+    <header class="u-primary-bg flexbox jc-btwn">
+        <!-- Logo and navigation links -->
+        <div class="logo flexbox ai-cn jc-btwn">
+            <a href="design-system.html">
+                <h3 class="u-primary-text">Design System</h3>
+            </a>
+            <!-- Hamburger menu icon -->
+            <label for="nav__checkbox" class="nav__toggle">
+                <img src="https://img.icons8.com/material-outlined/30/000000/menu--v1.png" id="hamburger"
+                    class="hamburger" />
+                <!-- Close icon -->
+                <img src="https://img.icons8.com/plumpy/30/000000/x.png" id="close-icon" class="close" />
+            </label>
+        </div>
+        <!-- Desktop navigation menu -->
+        <ul class="nav__menu desktop-tab">
+            <li><a href="About-me.html" class="u-body-font">About Me</a></li>
+            <li><a href="index.html" class="u-body-font">Demo site</a></li>
+        </ul>
+    </header>
+
+    <!-- Scrollable content section -->
+    <div class="scrollable-content">
+        <!-- Content section -->
+        <h1>Hi! My name is Viren Bhadiyadra</h1>
+        <h2>I am a web developer.</h2>
+        <!-- Portrait photo -->
+        <img
+            src="images/viren.JPEG"
+            alt="Portrait of Viren Bhadiyadra"
+            style="width: 500px; height: 500px"
+        />
+        <!-- Short biography -->
+        <p>
+            Hi, I'm Viren Bhadiyadra from the western part of India (Gujarat). I have a degree in Information Technology. Currently, I am pursuing my PGD in Design + Development (WEB Stream). An interesting fact about me is that I love animals, and I care about them, which is why I have been following veganism for the past year.
+        </p>
+        <!-- List of favorite web development tools -->
+        <p>My favourite tools are</p>
+        <ul>
+            <li>Procreate</li>
+            <li>Adobe Illustrator</li>
+            <li>Adobe XD</li>
+        </ul>
+        <!-- List of strongest web development skills -->
+        <p>My skills include</p>
+        <ul>
+            <li>Digital Drawing</li>
+            <li>Illustrations</li>
+            <li>UI Design</li>
+        </ul>
+    </div>
+</body>
+
 </html>
