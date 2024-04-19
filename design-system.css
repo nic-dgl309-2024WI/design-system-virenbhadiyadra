@@ -1,47 +1,58 @@
+/* Basic styles for the header */
 header {
     padding: 20px;
 }
 
+/* Flexbox setup for flexible layout designs */
 .flexbox {
     display: flex;
 }
 
+/* Allows wrapping of flex items */
 .flex-wrap {
     flex-wrap: wrap;
 }
 
+/* Distributes space between flex items */
 .jc-btwn {
     justify-content: space-between;
 }
 
+/* Centers flex items along the main axis */
 .jc-cntr {
     justify-content: center;
 }
 
+/* Sets a gap between flex items */
 .gp-40 {
     gap: 40px;
 }
 
+/* Aligns flex items at the center along the cross axis */
 .ai-cn {
     align-items: center;
 }
 
+/* Styles for navigation sidebar */
 .flexbox .nav {
     width: max(25%, 300px);
     overflow: scroll;
 }
 
+/* Margin adjustments for heading fonts in nav */
 .flexbox .nav .u-heading-font:not(:first-child) {
     margin-top: 30px;
     margin-bottom: 10px;
 }
 
+/* Padding styles for navigation */
 .flexbox .nav {
     padding-left: 30px;
     padding-top: 30px;
     padding-bottom: 30px;
 }
 
+/* Margin and padding styles for navigation list items */
 .flexbox .nav li:not(.u-heading-font) {
     margin: 15px 0;
 }
@@ -52,12 +63,13 @@ header {
     margin-left: 20px;
 }
 
-
+/* Styles for main content area */
 .content {
     height: calc(100vh - 50px);
     width: 100%;
 }
 
+/* Styles for sections within content */
 .sections {
     width: 75%;
     height: 100%;
@@ -65,10 +77,12 @@ header {
     padding: 7%;
 }
 
+/* Margin for color tables */
 .colors-table {
     margin-top: 40px;
 }
 
+/* Flexbox settings for color tables */
 .colors-table .flexbox {
     margin: 20px 0;
 }
@@ -78,20 +92,24 @@ header {
     word-wrap: break-word;
 }
 
+/* Example box dimensions */
 .ex-box {
     width: 80%;
     margin: 0 auto;
     height: 80px;
 }
 
+/* Padding for non-example boxes */
 .colors-table .flexbox>*:not(.ex-box) {
     padding: 10px;
 }
 
+/* Font size for descriptions */
 .description {
     font-size: 1.25rem;
 }
 
+/* Font weight for headers */
 .light-headers {
     font-weight: 500;
 }
@@ -100,6 +118,7 @@ header {
     font-weight: 700;
 }
 
+/* Styling for code blocks */
 code {
     display: block;
     margin-top: 20px;
@@ -107,6 +126,7 @@ code {
     line-height: 1.7;
 }
 
+/* Table styling */
 .table-div {
     max-width: 100%;
     overflow: scroll;
@@ -120,20 +140,20 @@ th {
     font-size: 1.25rem
 }
 
-th,
-td {
+th, td {
     text-align: center;
     padding: 10px;
     font-size: 1rem;
 }
 
+/* Styles for images in code blocks */
 .img-code {
     width: 30% !important;
     height: 300px;
     background: #aaa;
 }
 
-
+/* Grid layout styling for divs */
 .grid-layout div {
     display: flex;
     border: 1px solid black;
@@ -143,6 +163,7 @@ td {
     justify-content: center;
 }
 
+/* Styling for the copy button */
 .copy-button {
     height: 20px;
     width: 20px;
@@ -151,19 +172,17 @@ td {
     transition: all 0.25s ease-in-out;
 }
 
+/* Button press animation */
 .copy-button:active {
     transform: scale(0.8);
 }
 
+/* Hides mobile tabs in non-mobile view */
 .mobile-tab {
     display: none !important;
 }
 
-/* .plants-carousel {
-    height: 500px;
-} */
-
-
+/* Media queries for responsive design below 768px screen width */
 @media screen and (max-width: 768px) {
     header {
         position: relative;
@@ -214,9 +233,7 @@ td {
         margin: 20px 0;
     }
 
-    .acc-lbl,
-    .acc-arr,
-    .navigation-toggle {
+    .acc-lbl, .acc-arr, .navigation-toggle {
         width: 100%;
     }
 
@@ -230,7 +247,7 @@ td {
         align-items: center;
     }
 
-    .mobile-view-flex-direction-reverse > div{
+    .mobile-view-flex-direction-reverse > div {
         width: 100%;
     }
 
@@ -238,8 +255,7 @@ td {
         width: 300px;
     }
 
-    .modal-open,
-    .modal {
+    .modal-open, .modal {
         width: 95%;
     }
 
